@@ -151,7 +151,8 @@ def parse_multiline_response(text, graceful=True):
 
         lines_max = lines_min = len(header)
         for line in lines[1:]:
-            data = line.split(",")
+            # data = line.split(",") # Modification by Huw as this is too simplistic - causes problems if fields contain commas
+            data = [item for item in csv.reader(StringIO(line), delimiter=",", quotechar='"')][0] # Instead try this
             process_response_values(data)
             lines_max = max(lines_max, len(data))
             lines_min = min(lines_min, len(data))

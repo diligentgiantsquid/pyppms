@@ -13,7 +13,8 @@ src/pyppms.egg-info/
 /dist/
 
 # configuration file(s)
-pyppmsconf.py
+tests/pyppmsconf.py
+tests/cached_responses/
 
 # documentation (auto-generated via pdoc)
 docs/
