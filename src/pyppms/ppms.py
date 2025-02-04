@@ -360,7 +360,7 @@ class PpmsConnection:
             return
 
         try:
-            with open(intercept_file, "w", encoding="utf-8") as outfile:
+            with open(intercept_file, "w", encoding="utf-8", newline='') as outfile:
                 outfile.write(response.text)
             log.debug(
                 "Wrote response text to [{}] ({} lines)",
