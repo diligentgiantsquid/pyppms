@@ -44,7 +44,7 @@ user_standard:
   mustchbcode: false
   mustchpwd: false
   affiliation: ''
-  bcode: ''
+  bcode: 'SWAG/009'
   active: true
 
 user_inactive:

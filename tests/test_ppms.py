@@ -17,7 +17,7 @@ from loguru import logger as log
 from pyppms import ppms
 
 # TODO: system ID is hard-coded here, so this will fail on any other instance!
-__SYS_ID__ = 69
+__SYS_ID__ = 617 # Huw changed 617 for the 'Python Development System' on cruk-ci-dev
 
 
 @pytest.fixture
