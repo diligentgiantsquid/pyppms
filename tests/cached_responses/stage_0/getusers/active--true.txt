@@ -1,2 +1,0 @@
-pyppms
-pyppms-adm

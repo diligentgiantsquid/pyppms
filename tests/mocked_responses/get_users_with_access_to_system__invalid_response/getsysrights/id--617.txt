@@ -1,0 +1,5 @@
+S:admin
+A:pyppms
+malformed-entry
+A:pyppms-adm
+D:pyppms-deact
