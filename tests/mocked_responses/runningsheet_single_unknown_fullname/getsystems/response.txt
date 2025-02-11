@@ -1,0 +1,121 @@
+Core facility ref,System id,Type,Name,Localisation,Active,Schedules,Stats,Bookable,Autonomy Required,Autonomy Required After Hours
+6,78,"Confocal Laser Scanning System","Leica SP5","034C",True,True,True,True,True,False
+6,79,"Other Laser Scanning Systems","iCys Laser Scanning Cytometer","034A",False,True,True,True,True,False
+6,80,"Widefield microscope","Zeiss System 1","Room 034F_3",True,True,False,True,True,False
+6,81,"Widefield microscope","Nikon 4 (inverted)","034F",False,True,True,False,True,False
+6,82,"Microscopes outside the facility","Nikon inverted widefield","123a",False,True,True,True,True,False
+6,83,"Widefield microscope","Nikon 2 (inverted)","034F",False,True,True,False,True,False
+6,84,"Microscopes outside the facility","Nikon upright widefield","123a",False,True,True,True,True,False
+6,85,"Other Laser Scanning Systems","Spinning Disc Confocal","034F",False,True,True,True,True,False
+6,86,"Other Laser Scanning Systems","LaVision TriMscope Multiphoton","B54",False,True,True,True,True,False
+6,87,"Confocal Laser Scanning System","Leica SP5 + MP laser (Leica IR)","034C",False,True,True,True,True,False
+6,88,"Confocal Laser Scanning System","Leica SP8 + STED","034F",True,True,True,True,True,False
+6,89,"Widefield microscope","Zeiss system 2","Room 034F_3",True,True,True,True,True,False
+6,90,"Workstation","Workstation 1","034",False,True,True,True,False,False
+6,91,"Workstation","Workstation2 (Imaris)-REMOTE ACCESS ONLY","034",False,True,True,True,False,False
+6,92,"Workstation","Workstation3(Huygens/FlowJo))-REMOTE ACCESS ONLY","034",False,True,True,True,False,False
+6,93,"Workstation","Workstation 4","Corridor 034",True,True,True,True,False,False
+6,94,"Light Sheet Microscope","SPIM","034E",False,True,True,True,True,False
+6,95,"Live Cell Incubation Chamber","OKO Lab","034",False,True,True,True,True,False
+6,96,"Live Cell Incubation Chamber","Tokai Hit 1","034",False,True,True,True,True,False
+6,97,"Live Cell Incubation Chamber","Tokai Hit 2","034",False,True,True,True,True,False
+6,211,"Light Sheet Microscope","Zeiss Lightsheet Z.1","034A",True,True,True,True,True,False
+6,220,"Microscopes outside the facility","Leica fluorescent widefield","223a",False,True,True,False,True,False
+6,222,"Tissue Culture Microscopes","Tissue Culture Microscopes","Levels 1,2 and 3",False,True,False,True,True,False
+6,243,"Other","Alias-Zeiss LS Z.1 Live Samples","034A",False,True,True,False,True,False
+6,244,"Light Sheet Microscope","Zeiss Lightsheet Z.1 - Live Samples","034A",False,False,False,True,False,False
+6,245,"Other","ignore","0",False,False,False,True,False,False
+6,246,"Other Laser Scanning Systems","Dragonfly Spinning Disc","034F",True,True,True,True,True,False
+6,254,"Workstation","WS 5 (Vision4D,Zen,Z1,Akoya Phenochart)-REMOTE","034",False,True,True,True,False,False
+6,291,"High-Content Imaging System","Operetta CLS","034A",True,True,True,True,True,False
+6,296,"Workstation","Virtual Machine 1 - Arivis Vision 4D","Microscopy Server",False,True,True,True,True,False
+6,298,"Workstation","Virtual Machine 2","Microscopy Server",False,True,True,True,True,False
+6,303,"Virtual Machine","Virtual Workstation 1 (arivis Vision 4D)","Virtual WS1",False,True,True,True,True,False
+6,304,"Workstation","WS with Huygens - test","034",False,True,True,True,True,False
+6,305,"Data Analysis","Huygens - test","034",False,True,True,True,True,False
+6,306,"Data Analysis","Software Huygens - test","034",False,False,False,True,False,False
+6,309,"Data Analysis","Huygens *Software* WS3","034",False,True,True,False,True,False
+6,310,"Data Analysis","Imaris *Software* WS2","034",False,True,True,False,True,False
+6,311,"Data Analysis","Vision 4D *Software* WS5","034",True,True,True,False,True,False
+6,312,"Data Analysis","Harmony *Software* WS4","034",False,True,True,False,True,False
+6,313,"Data Analysis","SpotFire *Software* WS4","034",False,True,True,False,True,False
+6,315,"Data Analysis","Huygens *Software* SP8","034F",True,True,True,False,True,False
+6,316,"Data Analysis","Huygens *Software* VServer","Virtual Server",False,True,True,False,True,False
+6,317,"Data Analysis","Vision 4D *Software* VWS1","Virtual WS1",False,True,True,False,True,False
+6,318,"Data Analysis","Harmony *Software* V Operetta","Virtual Operetta",False,True,True,False,True,False
+6,319,"Data Analysis","SpotFire *Software* V Operetta","Virtual Operetta",False,True,True,False,True,False
+6,322,"Other","X-Clarity demo","120",False,False,False,True,True,False
+6,325,"Microscope Objective Lens","20x/0.7 Dry Lens (SP5)","034C",False,True,True,True,False,False
+6,327,"Virtual Machine","Harmony VM","00",False,True,True,True,True,False
+6,386,"Serial Two-photon Tomography","TissueVision STPT","034A_2",False,True,True,False,True,False
+6,387,"Room","Room 034A","034A",True,True,False,False,False,False
+6,388,"High-Content Imaging System","Operetta - Restricted","Room 034A_1",False,False,False,True,False,False
+6,389,"Serial Two-photon Tomography","TissueVision STPT - Restricted","Room 034A",False,False,False,True,False,False
+6,419,"Room","Room 034C","034C",True,True,False,False,False,False
+6,420,"Confocal Laser Scanning System","Leica SP5 (tandem) - Restricted","Room 034C",False,False,False,True,False,False
+6,421,"Confocal Laser Scanning System","Leica SP5 + MP laser (IR) - Restricted","Room 034C",False,False,False,True,False,False
+6,423,"Room","Room 034F","034F",True,True,False,False,False,False
+6,424,"Other Laser Scanning Systems","Dragonfly - Restricted","Room 034F_2",False,False,False,True,False,False
+6,425,"Confocal Laser Scanning System","SP8 + STED - Restricted","Room 034F",False,False,False,True,False,False
+6,426,"Widefield microscope","Zeiss System 1 - Restricted","Room 034F_3",False,False,False,True,False,False
+6,427,"Widefield microscope","Zeiss system 2 - Restricted","Room 034F_3",False,False,False,True,False,False
+6,428,"Widefield microscope","Nikon 2 (inverted) -Restricted","Room 034F",False,False,False,True,False,False
+6,429,"Widefield microscope","Nikon 4 (inverted) - Restricted","Room 034F",False,False,False,True,False,False
+6,430,"Light Sheet Microscope","Zeiss Lightsheet Z.1 - Restricted","Room 034A",False,True,True,True,True,False
+6,431,"Light Sheet Microscope","Zeiss Lightsheet Z.1 - Restricted","Room 034A",False,False,False,True,False,False
+6,459,"Other Laser Scanning Systems","Raman Microscope","034E",False,True,True,False,False,False
+6,460,"Room","Room 034E","034E",False,False,False,True,False,False
+6,461,"Other Laser Scanning Systems","Raman Microscope - Restricted","Room 034E",False,False,False,True,False,False
+6,462,"Room","Room 034E","034E",True,True,False,False,False,False
+6,463,"Room","Corridor 034","Corridor 034",True,True,False,False,False,False
+6,464,"Workstation","Workstation 1","Corridor 034",False,True,True,True,True,False
+6,465,"Workstation","Workstation 2","Corridor 034",True,True,True,True,False,False
+6,478,"Workstation","Workstation 1 - Restricted","Corridor 034",False,False,False,True,False,False
+6,479,"Workstation","Workstation 2 (Imaris) - Restricted","Corridor 034",False,False,False,True,False,False
+6,480,"Workstation","Workstation 2 - restricted","034 corridor",False,True,True,False,False,False
+6,482,"Workstation","Workstation 3 (Huygens/FlowJo)","034E",True,True,True,True,False,False
+6,483,"Workstation","Workstation 5 (Vision4D Zen Z1)","Corridor 034",True,True,True,True,False,False
+6,484,"Workstation","Workstation 3 (Huygens/FlowJo) - Restricted","Corridor 034",False,False,False,True,False,False
+6,485,"Workstation","WS 5(Vision4D,Zen,Z1,Akoya Phenochart)-Restricted","Corridor 034",False,False,False,True,False,False
+6,486,"Workstation","Workstation 4 (Harmony)","corridor 034",False,True,True,True,False,False
+6,487,"Workstation","Workstation 4 - Restricted","Corridor 034",False,False,False,True,False,False
+6,502,"Room","Room 034A_1","Room 034A_1",True,True,False,False,False,False
+6,503,"Room","Room 034A_2","Room 034A_2",True,True,False,False,False,False
+6,504,"Room","Room 034F_2","034F_2",True,True,False,False,False,False
+6,507,"Microscope Objective Lens","25x/0.95 Water Lens (SP5) (034C)","034C",True,True,True,True,False,False
+6,508,"Data Analysis","Imaris *Software* VWS2","Virtual WS2",False,True,True,False,True,False
+6,509,"Data Analysis","Imaris *Software* VWS3","Virtual WS3",False,True,True,False,True,False
+6,515,"Data Analysis","Imaris *Software* Dragonfly Acquisition PC","034F",True,True,True,False,True,False
+6,516,"Data Analysis","Imaris Stitcher *Software* WS2","034",False,True,True,False,True,False
+6,517,"Data Analysis","Imaris Stitcher *Software* VWS2","Virtual WS2",False,True,True,False,True,False
+6,518,"Data Analysis","Imaris Stitcher *Software* WS3","Virtual WS3",False,True,True,False,True,False
+6,521,"Room","Room 034F_3","034F_3",True,True,False,False,False,False
+6,522,"Room","Room 034F_4","034F_4",True,True,False,False,False,False
+6,523,"Widefield microscope","Zeiss system 1-Restricted","Room 034F_3",False,False,False,True,False,False
+6,525,"Virtual Machine","Virtual Workstation 3 (Imaris)","Virtual WS3",False,True,True,True,True,False
+6,549,"Confocal Laser Scanning System","Stellaris 8 Confocal MP","034C",True,True,True,True,True,False
+6,570,"Data Analysis","Imaris (single user)","Floating",False,False,False,True,False,False
+6,574,"High-Content Imaging System","Opera Phenix","034F",True,True,True,True,True,False
+6,576,"Workstation","Workstation 6 (Harmony 4.9 & 5.2)","034",True,True,True,True,False,False
+6,580,"Data Analysis","V4D (single user)","Floating",False,False,False,True,False,False
+6,584,"Virtual Machine","Remote Server SCOPE-RDS001","Remote Server",True,True,True,False,True,False
+6,585,"Virtual Machine","Virtual Workstation 2","Virtual WS2",False,True,True,True,True,False
+6,586,"Data Analysis","Harmony *Software* WS6","034",True,True,True,False,False,False
+6,589,"Virtual Machine","SCOPE_TEST_PC1","Virtual WS1",False,True,False,True,True,False
+6,590,"Virtual Machine","SCOPE_TEST_PC2","Virtual WS1",False,True,False,True,True,False
+6,591,"Workstation","Workstation 7","Corridor 034",True,True,True,True,False,False
+6,592,"Data Analysis","Imaris *Software* WS7","034",True,True,True,False,False,False
+6,596,"Remote Server","LM-SRV1 (Vision 4D)","Server room",True,True,True,True,True,False
+6,597,"Remote Server","LM-SRV2 (Huygens)","Server room",True,True,True,True,True,False
+6,598,"Remote Server","LM-SRV3 (Harmony)","Server room",True,True,True,True,True,False
+6,599,"Remote Server","LM-SRV4 (Harmony)","Server room",True,True,True,True,True,False
+6,600,"Data Analysis","Vision 4D *Software* LM-SRV1","Server room",True,True,True,False,True,False
+6,601,"Data Analysis","Huygens *Software* LM-SRV2","Server room",True,True,True,False,True,False
+6,602,"Data Analysis","Harmony *Software* LM-SRV3","Server room",True,True,True,False,False,False
+6,603,"Data Analysis","Harmony *Software* LM-SRV4","Server room",True,True,True,False,False,False
+6,604,"Data Analysis","Imaris *Software* LM-SRV3","Server room",False,True,True,False,True,False
+6,607,"Room","Quiet working room","034B",True,True,False,True,True,False
+6,609,"Remote Server","LM-SRV3 with Imaris","Server room",True,False,False,True,False,False
+6,610,"Workstation","Workstation 7 with Imaris","Corridor 034",True,False,False,True,False,False
+6,615,"Widefield microscope","Nikon 90i upright","034E",True,True,True,True,True,False
+6,617,"Virtualized Workstation","Python Development System","VDI (Development)",True,True,True,True,True,False

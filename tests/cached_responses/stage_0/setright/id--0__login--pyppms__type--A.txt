@@ -1,1 +1,1 @@
-error: invalid id
+System right not authorized
