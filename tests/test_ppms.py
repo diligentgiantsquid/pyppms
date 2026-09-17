@@ -15,7 +15,7 @@ from pyppms import ppms
 from pyppms.common import set_loglevel
 
 # TODO: system ID is hard-coded here, so this will fail on any other instance!
-__SYS_ID__ = 69
+__SYS_ID__ = 637
 
 set_loglevel("TRACE")
 
