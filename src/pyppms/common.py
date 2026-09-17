@@ -4,6 +4,7 @@ import csv
 import sys
 from datetime import datetime, timedelta
 from io import StringIO
+from pathlib import Path
 
 import pandas as pd
 
@@ -319,3 +320,6 @@ def set_loglevel(level: str) -> None:
     """
     log.remove()  # remove the default handler
     log.add(sys.stderr, level=level)
+    
+    log_path = Path(__file__).resolve().parents[2] / "pyppms.log"
+    log.add(log_path, level=level, enqueue=True)
