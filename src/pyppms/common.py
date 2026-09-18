@@ -37,7 +37,7 @@ def process_response_values(values):
             values[i] = False
 
 
-def dict_from_single_response(text, graceful=True):
+def dict_from_single_response(text, graceful=True, truncate=True):
     """Parse a two-line CSV response from PUMAPI and create a dict from it.
 
     Parameters
@@ -91,11 +91,21 @@ def dict_from_single_response(text, graceful=True):
             log.trace("Ignoring mismatch ('graceful' has been set to 'True').")
             minimum = min(len(header), len(data))
             if minimum < len(header):
-                log.trace("Discarding header-fields: {}", header[minimum:])
-                header = header[:minimum]
+                if truncate:
+                    log.trace("Discarding header-fields: {}", header[minimum:])
+                    header = header[:minimum]
+                else:
+                    # Instead of discarding, pad the data with None values
+                    log.trace("Padding tail of data with {}x None values to match header length", len(header) - len(data))
+                    data.extend([',None'] * (len(header) - len(data)))
             else:
-                log.trace("Discarding data-fields: {}", data[minimum:])
-                data = data[:minimum]
+                if truncate:
+                    log.trace("Discarding data-fields: {}", data[minimum:])
+                    data = data[:minimum]
+                else:
+                    # Instead of discarding, pad the header with placeholder values
+                    log.trace("Padding tail of header with {}x 'UnknownField' values to match data length", len(data) - len(header))
+                    header.extend([f',UnknownField{i+1}' for i in range(len(data) - len(header))])
 
     except Exception as err:
         msg = f"Unable to parse data returned by PUMAPI: {text} - ERROR: {err}"
